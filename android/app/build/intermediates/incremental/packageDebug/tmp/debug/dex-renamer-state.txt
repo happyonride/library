@@ -1,0 +1,4 @@
+#Fri Jul 26 00:36:10 IST 2019
+base.0=/home/hulk/Desktop/Template/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+path.0=classes.dex
