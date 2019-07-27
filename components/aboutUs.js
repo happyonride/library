@@ -17,8 +17,11 @@ export class aboutUs extends Component {
                     </TouchableOpacity >
                     <View style={styles.logoMain}>
                         <Text style={styles.logoText}>
-                            TestAPP
+                        Library Management
+                        
                         </Text>
+                        <Image style={styles.logo} source={require('../assets/logo.png')} />
+            
                     </View>
                 </View>
                 <View style={styles.Tile}>

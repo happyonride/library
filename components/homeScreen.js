@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Button, Image } from 'react-native'
+import { ScrollView } from 'react-native-gesture-handler';
 
 export class homeScreen extends Component {
     constructor(props) {
@@ -11,6 +12,7 @@ export class homeScreen extends Component {
     }
     render() {
         return (
+            <ScrollView>
             <View>
                 <View style={styles.header}>
                     <TouchableOpacity style={styles.hamburger} onPress={() => this.props.navigation.toggleDrawer()}>
@@ -24,29 +26,40 @@ export class homeScreen extends Component {
                     </TouchableOpacity >
                     <View style={styles.logoMain}>
                         <Text style={styles.logoText}>
-                            TestAPP
+                        Library Management
                         </Text>
-                        <Image style={styles.logo} source={require('../assets/d.jpg')} />
+                        <Image style={styles.logo} source={require('../assets/logo.png')} />
                     </View>
                 </View>
                 <View>
                     <View>
-                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Hi There !!!</Text>
-                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Hope You Enjoy This App</Text>
+                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>The library is the temple of learning, and 
+                    learning has liberated more people than all the wars in history.</Text>
+                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}></Text>
                     </View>
                     <View>
-                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/images.png')} />
-                        <Button style={styles.btnTest} title="Go to about" onPress={() => this.goto()} />
-                        <TouchableOpacity style={styles.btnTest} onPress={() => this.goto()}>
-                            <Text style={{alignSelf:"center"}}>
-                                Go to About Us
+                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/hello1.jpg')} />
+                        <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>The library is the temple of learning, and 
+                        learning has liberated more people than all the wars in history.</Text>
+                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>If you want to get laid, go to college.</Text>
+                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/hello2.jpg')} />
+                        <Text style={{alignSelf:"center", fontSize:18}}>
+                        The library is the temple of learning, and learning has liberated more people than all the wars in history.
                             </Text>
-                        </TouchableOpacity>
+                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/hello3.jpg')} />
+                        <Text style={{alignSelf:"center", fontSize:18}}>
+                        The library is the temple of learning, and learning has liberated more people than all the wars in history.
+                            </Text>
+                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/hello4.jpg')} />
+                        <Text style={{alignSelf:"center", fontSize:18}}>
+                        The library is the temple of learning, and learning has liberated more people than all the wars in history.
+                            </Text>
+
                     </View>
 
                 </View>
 
-            </View>
+            </View></ScrollView>
 
         )
     }
@@ -60,6 +73,8 @@ const styles = StyleSheet.create({
     img: {
         alignSelf: 'center',
         marginTop:10,
+        width:350,
+        height:250,
         marginBottom:30,
     },
     btnTest: {

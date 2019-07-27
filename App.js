@@ -33,18 +33,16 @@ import {
 import homeScreen from './components/homeScreen';
 import detailsScreen from './components/detailsScreen';
 import aboutUs from "./components/aboutUs";
-import details from "./components/details";
-import event from './components/event';
-import test from './components/test';
+
 
 export const RootStack = createDrawerNavigator(
   {
       HomeScreen:homeScreen,
-      Event:event,
+      // Event:event,
       DetailsScreen:detailsScreen,
       AboutUs:aboutUs,
-      DetailsCompany:details,
-      Test:test
+      // DetailsCompany:details,
+      // Test:test
   },
   {
       initialRouteName: "HomeScreen",
