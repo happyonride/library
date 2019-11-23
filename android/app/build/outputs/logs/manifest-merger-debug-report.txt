@@ -5,9 +5,9 @@ INJECTED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xm
 INJECTED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/c9ef9ab75e3ce058885b39d79470ac66/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/31a670fce9d96e08856253ea593c370b/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/hulk/Desktop/library/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/6a2ba86252cedc2f4b94562ea2d621dc/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/31a670fce9d96e08856253ea593c370b/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /root/.gradle/caches/transforms-2/files-2.1/b32e81201d0e61c846930f42d9b13500/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/c56d7bb49d05684bd6cc962d7009e7eb/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/ebb21797c2ff564d13e2b46ac31117c6/AndroidManifest.xml:2:1-9:12
@@ -42,7 +42,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /root/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/fad469c461255d3974a666447823dcaf/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/b4ebf1a2f1b70de6fae7602da5c54d94/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/eeb8f93d52f257c8b2383b6f0e6c0525/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/0432085bb5f4bf8e3c37534ef2a2eee2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/e41fe6906107cefe9ec6263d7a1dd3ab/AndroidManifest.xml:2:1-9:12
 INJECTED from /home/hulk/Desktop/library/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/hulk/Desktop/library/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/hulk/Desktop/library/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -71,8 +71,8 @@ application
 ADDED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/c9ef9ab75e3ce058885b39d79470ac66/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/c9ef9ab75e3ce058885b39d79470ac66/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/6a2ba86252cedc2f4b94562ea2d621dc/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/6a2ba86252cedc2f4b94562ea2d621dc/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /root/.gradle/caches/transforms-2/files-2.1/b884db1ad49586c2a648f025884970e0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /root/.gradle/caches/transforms-2/files-2.1/b884db1ad49586c2a648f025884970e0/AndroidManifest.xml:11:5-20
 MERGED from [androidx.core:core:1.0.1] /root/.gradle/caches/transforms-2/files-2.1/69abaca793e0c2549b9c618b2f34067f/AndroidManifest.xml:22:5-89
@@ -133,12 +133,12 @@ uses-sdk
 INJECTED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/hulk/Desktop/library/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/c9ef9ab75e3ce058885b39d79470ac66/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/c9ef9ab75e3ce058885b39d79470ac66/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/31a670fce9d96e08856253ea593c370b/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/31a670fce9d96e08856253ea593c370b/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/hulk/Desktop/library/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/hulk/Desktop/library/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/6a2ba86252cedc2f4b94562ea2d621dc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.4] /root/.gradle/caches/transforms-2/files-2.1/6a2ba86252cedc2f4b94562ea2d621dc/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/31a670fce9d96e08856253ea593c370b/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/31a670fce9d96e08856253ea593c370b/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] /root/.gradle/caches/transforms-2/files-2.1/b32e81201d0e61c846930f42d9b13500/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /root/.gradle/caches/transforms-2/files-2.1/b32e81201d0e61c846930f42d9b13500/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:fresco:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/c56d7bb49d05684bd6cc962d7009e7eb/AndroidManifest.xml:5:5-7:41
@@ -207,8 +207,8 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /root/.gradle/caches/transfo
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/b4ebf1a2f1b70de6fae7602da5c54d94/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/eeb8f93d52f257c8b2383b6f0e6c0525/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/eeb8f93d52f257c8b2383b6f0e6c0525/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/0432085bb5f4bf8e3c37534ef2a2eee2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/0432085bb5f4bf8e3c37534ef2a2eee2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/e41fe6906107cefe9ec6263d7a1dd3ab/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/e41fe6906107cefe9ec6263d7a1dd3ab/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/hulk/Desktop/library/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/hulk/Desktop/library/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
